@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.candle-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.candle-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.candle-icon {
+  margin-right: 10px;
+  color: #ff9800;
+}
+
+.App-footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}

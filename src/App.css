@@ -1,0 +1,7 @@
+.candle-image {
+  width: auto;
+  height: auto;
+  max-height: auto; /* Optional: Limit the height for better layout */
+  object-fit: auto; /* Ensures the image scales nicely */
+  margin-bottom: auto;
+}
