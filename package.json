@@ -2,8 +2,10 @@
   "name": "handmade-candles-webpage",
   "version": "1.0.0",
   "description": "A React application for showcasing handmade candles.",
-  "main": "src/index.js",
+  "main": "public.index.html",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
@@ -24,7 +26,7 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
   },
-  "homepage": ".",
+  "homepage": "https://adarchiev.github.io/cire-and-platre-ui",
   "browserslist": {
     "production": [
       ">0.2%",

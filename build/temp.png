@@ -1,0 +1,19 @@
+
+from PIL import Image, ImageDraw
+
+# Create a new image with transparent background
+img = Image.new('RGBA', (64, 64), (0, 0, 0, 0))
+draw = ImageDraw.Draw(img)
+
+# Draw candle body
+draw.rectangle([(24, 20), (40, 55)], fill='white', outline='gray')
+
+# Draw candle wick
+draw.line([(32, 10), (32, 20)], fill='black', width=2)
+
+# Draw flame
+points = [(32, 5), (28, 12), (36, 12)]
+draw.polygon(points, fill='orange')
+
+# Save the icon
+img.save('candle_icon.png')
